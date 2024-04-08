@@ -257,7 +257,7 @@ CREATE TABLE `j_user` (
 -- Records of j_user
 -- ----------------------------
 BEGIN;
-INSERT INTO `j_user` (`id`, `username`, `password`, `phone`, `status`, `email`, `avatar`, `deleted`) VALUES (1, 'java1234', '123456', '13343243242', NULL, 'super@aliyun.com', 'https://img2.baidu.com/it/u=3618236253,1028428296&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 0);
+INSERT INTO `j_user` (`id`, `username`, `password`, `phone`, `status`, `email`, `avatar`, `deleted`) VALUES (1, 'admin', '123456', '13343243242', NULL, 'super@aliyun.com', 'https://img2.baidu.com/it/u=3618236253,1028428296&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 0);
 INSERT INTO `j_user` (`id`, `username`, `password`, `phone`, `status`, `email`, `avatar`, `deleted`) VALUES (2, 'zhangsan', '123456', NULL, NULL, 'zhangsan@gmail.com', 'https://img2.baidu.com/it/u=3618236253,1028428296&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 1);
 INSERT INTO `j_user` (`id`, `username`, `password`, `phone`, `status`, `email`, `avatar`, `deleted`) VALUES (3, 'lisi', '123456', NULL, NULL, 'lisi@gmail.com', 'https://img2.baidu.com/it/u=3618236253,1028428296&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 1);
 INSERT INTO `j_user` (`id`, `username`, `password`, `phone`, `status`, `email`, `avatar`, `deleted`) VALUES (4, 'wangwu', '123456', NULL, NULL, 'wangwu@gmail.com', 'https://img2.baidu.com/it/u=3618236253,1028428296&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 1);
