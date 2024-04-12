@@ -48,6 +48,9 @@ public class Body {
     @TableField("sleep_quality")
     private String sleepQuality;
 
+    @TableField("mood_quality")
+    private String moodQuality;
+
     @TableField("smoking")
     private boolean smoking;
 
